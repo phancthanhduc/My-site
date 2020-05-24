@@ -1,0 +1,64 @@
+body {
+  background-color:  #F0F8FF;
+  margin: 0;
+  text-align: center;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-size: 20px;
+}
+h1{
+/* 1em = 100% = 16px; rem : root em means it doesnt change while parents being changed*/
+  font-size: 5rem;
+  line-height: 2;
+}
+.top-container{
+  background-color: #E6E6FA;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: relative;
+  left: 200px;
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+.web {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.my-skills-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-des {
+  clear: left;
+}
+/*.middle-container{
+  background-color: blue;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 200px;
+
+
+
+}
+.bottom-container {
+  background-color: red;
+  height: 200px;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+  width: 200px;
+*/
